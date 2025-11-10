@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luxe Beauty Studio</title>
+  <meta name="description" content="Luxe Beauty Studio — professional make-up, bridal looks, and skincare." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Luxe<span>Beauty</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        <button class="btn btn-primary" id="bookBtn">Book Now</button>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Signature Make‑Up &amp; Beauty</h1>
+          <p>From bridal glam to every‑day natural looks — feel confident and camera‑ready.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-ghost">Explore Services</a>
+            <button class="btn btn-primary" id="heroBook">Book a Session</button>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6f9f6d14fd9a2ea3d3c7d704d4f052e6" alt="Makeup artist applying makeup">
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-sub">Tailored packages for every occasion.</p>
+        <div class="grid services-grid">
+          <article class="card">
+            <h3>Bridal Makeup</h3>
+            <p>Long‑lasting glam designed for your big day — trials included.</p>
+            <div class="card-footer">
+              <span>From $150</span>
+              <button class="btn btn-sm" data-service="Bridal Makeup">Book</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Editorial &amp; Photoshoot</h3>
+            <p>High‑end looks for campaigns, influencers and portfolios.</p>
+            <div class="card-footer">
+              <span>From $120</span>
+              <button class="btn btn-sm" data-service="Editorial Makeup">Book</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Everyday &amp; Natural</h3>
+            <p>Subtle, glowing looks for daily confidence and meetings.</p>
+            <div class="card-footer">
+              <span>From $60</span>
+              <button class="btn btn-sm" data-service="Natural Makeup">Book</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-sub">A selection of recent looks and transformations.</p>
+        <div class="masonry">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=e8c64e1f4ab6f7d4cf6b2c5f6e2e45a0" alt="Look 1">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=05a21b5f6b8b376f4b2b6a0c3d8ed8b7" alt="Look 2">
+          <img src="https://images.unsplash.com/photo-1503264116251-35a269479413?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=9a3c6a5f8c9d707a1b2f2ab1d2f9b6ef" alt="Look 3">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=7f8f2b0b6a4c1a2b3d4e5f6a7b8c9d0e" alt="Look 4">
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section products">
+      <div class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="grid products-grid">
+          <div class="product">
+            <img src="https://images.unsplash.com/photo-1600180758895-52e4664a3f7f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=bbf5b9c0bf9c0b5a5c6a0ff55b2a4f94" alt="Product 1">
+            <h4>Liquid Glow Foundation</h4>
+            <span class="price">$34</span>
+            <button class="btn btn-sm">Add to cart</button>
+          </div>
+          <div class="product">
+            <img src="https://images.unsplash.com/photo-1543168259-1619f54f6f6f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=a6b3c8a5d7f9c9e8b4d2f6a1c2e3b5f6" alt="Product 2">
+            <h4>Cream Blush</h4>
+            <span class="price">$18</span>
+            <button class="btn btn-sm">Add to cart</button>
+          </div>
+          <div class="product">
+            <img src="https://images.unsplash.com/photo-1567532935922-0f94f0b2a5b2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3a8f6b0e9c2a4f5d6b8c9a1b0d2e6f7d" alt="Product 3">
+            <h4>Velvet Lipstick</h4>
+            <span class="price">$22</span>
+            <button class="btn btn-sm">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Contact &amp; Studio</h2>
+          <p>123 Beauty Lane, Suite 5<br/>Cityville, Country</p>
+          <p>Email: hello@luxebeauty.example<br/>Phone: (555) 123-4567</p>
+          <p>Open Tue–Sat: 9am–6pm</p>
+        </div>
+
+        <form id="contactForm" class="contact-form" aria-label="Contact form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="button" class="btn" id="contactBook">Book a Session</button>
+          </div>
+          <p id="contactResult" class="form-result" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Luxe Beauty Studio — All rights reserved.</p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="TikTok">TT</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h3 id="modalTitle">Book a Session</h3>
+      <form id="bookingForm" class="booking-form">
+        <label><span>Full name</span><input name="fullName" required /></label>
+        <label><span>Email</span><input type="email" name="email" required /></label>
+        <label><span>Service</span>
+          <select name="service" id="serviceSelect" required>
+            <option value="">Select a service</option>
+            <option>Bridal Makeup</option>
+            <option>Editorial Makeup</option>
+            <option>Natural Makeup</option>
+          </select>
+        </label>
+        <label><span>Date</span><input type="date" name="date" required /></label>
+        <label><span>Time</span><input type="time" name="time" required /></label>
+        <label><span>Notes</span><textarea name="notes" rows="2"></textarea></label>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Request Booking</button>
+          <button class="btn" type="button" id="modalCancel">Cancel</button>
+        </div>
+        <p id="bookingResult" class="form-result" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
